@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>profil pribadi saya</title>
+
+    <!-- BAGIAN CSS UNTUK MENGATUR TAMPILAN WEBSITE-->
+     <style>
+        /* mengatur semua elemen */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* mengatur latar belakang website */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg,#fce4ec, #ede7f6);
+            color: #493c59;
+            padding: 20px;
+        }
+
+        /* bagian judul website */
+        header {
+            text-align: center;
+            padding: 25px;
+            color: white;
+            background: linear-gradient(135deg, #b388d9, #e7a9cc);
+            border-radius: 20px;
+            margin-bottom: 25px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 15px;
+        }
+
+        /* kotak utama profil */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 300px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px #8b70a52b;
+        }
+
+        /* bagian foto profil */
+        .foto {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .foto img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #d7b5ec;
+        }
+
+        .foto h2 {
+            margin-top: 8px;
+            color: #9565b6;
+        }
+
+        .foto p {
+            margin-top: 8px;
+            color:#9988a8;
+        }
+
+        /* judul bagian biodata */
+        .judul {
+            color: #9565b6;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ead9f5;
+            padding-bottom: 10px ;
+        }
+
+        /* Kotak setiap informasi */
+        .biodata {
+            background: #faf5ff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            border-left: 5px solid #c9a1e5;
+        }
+
+        .biodata h3 {
+            font-size: 14px;
+            color: #9b7bb0;
+            margin-bottom: 6px;
+        }
+
+        .biodata p {
+            font-size: 16px;
+            font-weight: bold;
+            overflow-wrap: anywhere;
+        }
+
+        /* Bagian motto */
+        .motto {
+            background: linear-gradient(135deg, #fce4ec, #eee5ff);
+            padding: 22px;
+            text-align: center;
+            border-radius: 15px;
+            margin-top: 25px;
+        }
+
+        .motto h2 {
+            color: #9565b6;
+            margin-bottom: 12px;
+        }
+
+        .motto p {
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        /* Bagian penutup website */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #806b91;
+            font-size: 14px;
+        }
+
+        /* Tampilan untuk layar HP */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .foto img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- BAGIAN 1: JUDUL WEBSITE -->
+    <header>
+        <h1>♡ My Personal Profile ♡</h1>
+        <p>Welcome to my little world!</p>
+    </header>
+
+    <!-- BAGIAN 2: KONTEN PROFIL -->
+    <div class="container">
+
+        <!-- FOTO DAN NAMA -->
+        <div class="foto">
+
+            <!-- Foto harus berada dalam folder yang sama -->
+            <img src="c:\Users\ACER\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\E4A9BC8E8A01BC3992003E21038544111B5DD2AE\transfers\2026-43\WhatsApp Image 2026-10-26 at 09.46.19.jpeg" alt= "foto profil saya"
+
+            <h2>Nasya maulida</h2>
+            <p>Pelajar | Jurusan Rekayasa Perangkat Lunak</p>
+
+        </div>
+
+        <!-- BAGIAN 3: BIODATA -->
+        <h2 class="judul">♡ Biodata Pribadi</h2>
+
+        <div class="biodata">
+            <h3>Nama Lengkap</h3>
+            <p>Nasya maulida</p>
+        </div>
+
+        <div class="biodata">
+            <h3>tempat, tanggal lahir</h3>
+            <p>kudus, 22-01-2011</p>
+        </div>
+
+        <div class="biodata">
+            <h3>alamat</h3>
+            <p>kp.cikuda wanaherang</p>
+        </div>
+
+        <div class="biodata">
+            <h3>Email</h3>
+            <p>nasya2238@gmail.com</p>
+        </div>
+
+        <div class="biodata">
+            <h3>Kelas</h3>
+            <p>X RPL 3</p>
+        </div>
+
+        <div class="biodata">
+            <h3>Sekolah</h3>
+            <p>SMKN 1 Gunung Putri</p>
+        </div>
+
+        <div class="biodata">
+            <h3>Hobi</h3>
+            <p>mendengarkan musik</p>
+        </div>
+
+        <!-- BAGIAN 4: MOTTO HIDUP -->
+        <div class="motto">
+            <h2>✧ Motto Hidup ✧</h2>
+
+            <p>
+                "Jangan takut mencoba hal baru.
+                Terus belajar, tetap semangat,
+                dan jadilah versi terbaik dari dirimu."
+            </p>
+        </div>
+
+    </div>
+
+    <!-- BAGIAN 5: PENUTUP -->
+    <footer>
+        <p>♡ Dibuat dengan penuh kreativitas ♡</p>
+        <p>© 2026 My Personal Profile</p>
+    </footer>
+
+</body>
+</html
